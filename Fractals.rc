@@ -1,0 +1,170 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEU)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_FRACTALS DIALOG DISCARDABLE  0, 0, 502, 391
+STYLE DS_3DLOOK | WS_CAPTION | WS_SYSMENU
+CAPTION "Fractals by DeSlocK 1.0"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDCX,455,116,30,12,ES_AUTOHSCROLL
+    EDITTEXT        IDCY,455,130,31,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Draw Fractal",IDDRAW,425,362,60,22
+    GROUPBOX        "Static",IDC_STATIC,7,5,401,373
+    GROUPBOX        "Resolution",IDC_STATIC,423,105,71,40
+    LTEXT           "Res X:",IDC_STATIC,429,118,22,8
+    LTEXT           "Res Y:",IDC_STATIC,429,132,22,8
+    GROUPBOX        "Colors",IDC_STATIC,422,154,72,37
+    GROUPBOX        "Complex Param",IDC_STATIC,423,202,71,45
+    EDITTEXT        IDCPA,455,214,36,12,ES_AUTOHSCROLL
+    EDITTEXT        IDCPB,455,228,35,12,ES_AUTOHSCROLL
+    LTEXT           "Narrow",IDC_STATIC,427,215,25,9
+    LTEXT           "ParamA",IDC_STATIC,427,230,26,9
+    GROUPBOX        "Zoom",IDC_STATIC,424,258,70,26
+    LTEXT           "X",IDC_STATIC,458,270,12,10
+    LTEXT           "Red:",IDC_STATIC,435,175,15,8
+    LTEXT           "Green:",IDC_STATIC,429,165,21,8
+    EDITTEXT        IDCRED,456,162,30,12,ES_AUTOHSCROLL
+    EDITTEXT        IDCGREEN,456,175,30,12,ES_AUTOHSCROLL
+    GROUPBOX        "Move camera",IDC_STATIC,419,294,75,57
+    PUSHBUTTON      "Left",IDC_LEFT,422,319,21,13
+    PUSHBUTTON      "Right",IDC_RIGHT,470,319,24,12
+    PUSHBUTTON      "Up",IDC_UP,445,305,22,14
+    PUSHBUTTON      "Down",IDC_DOWN,445,334,23,15
+    EDITTEXT        IDC_MOVE,444,319,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDCZOOMA,430,268,27,12,ES_AUTOHSCROLL
+    CONTROL         106,IDC_STATIC,"Static",SS_BITMAP,423,16,65,57
+    PUSHBUTTON      "Reset",IDC_RESET,7,377,60,13
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_FRACTALS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 494
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 390
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Neutral resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// French (Canada) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRC)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH_CANADIAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  DISCARDABLE     "frac1.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDCZOOMA                "Change the value to zoom or un-zoom the fractal"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDCX                    "ughjkghjg"
+END
+
+#endif    // French (Canada) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// French (Switzerland) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRS)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH_SWISS
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // French (Switzerland) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
